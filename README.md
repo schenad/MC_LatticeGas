@@ -29,7 +29,7 @@ With the model in hand, I calculate the critical temperature (Tc) of phase trans
 
 - Coverage = 1%:
 
-![1%](/Results/Cv%20Calculation/No%20Repulsion/1%25.png)
+![1%](/Results/Cv%20Calculation/No%20Repulsion/1.0%25.png)
 
 - Coverage = 5%:
 
