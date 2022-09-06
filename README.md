@@ -23,6 +23,42 @@ Below shows selected simulation results in compare to the experiment:
 
 The results are stunning. 3 different coverages generate 2 different patterns (the 10.92% is very similar to 71.95%). The most interesting case is when 33.65% of the surface is covered, the deposition of Br on Cu surface shows [turing patterns](https://en.wikipedia.org/wiki/Turing_pattern) with characteristic stripes in experiment, while my simulation shows very similar patterns. The turing pattern can be explained by [reaction-diffusion theory](https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system). The local chemical reactions are compete with the global diffusion just like the local bonding is compete with global repulsive force. Although there is no chemical reaction in my system, similar pattern is formed and serves as a great example of [pattern formation](https://en.wikipedia.org/wiki/Pattern_formation) with simple rules. In fact, in [classical nucleation theory](https://en.wikipedia.org/wiki/Classical_nucleation_theory), the density of nucleated island mainly depends on the competition between deposition flux (F) and diffusion energy (Ed), which may also explain the formation of turing pattern in my simulation.  
 
+## Phase Transition
+
+With the model in hand, I calculate the critical temperature (Tc) of phase transition for our system. I calculate for the cases with and without the repulsion for different coverages. Without repulsion, the phase transition is significant at Tc as shown below, while the repulsive force gives a more gradual transition. The specific heat capacity (Cv) as a funtion of temperature was calculated to characterize the phase transistion. 
+
+- Coverage = 1%:
+
+![1%](/Results/Cv%20Calculation/No%20Repulsion/1%25.png)
+
+- Coverage = 5%:
+
+![5%](/Results/Cv%20Calculation/No%20Repulsion/5%25.png)
+
+- Coverage = 10.92%:
+
+![10.92%](/Results/Cv%20Calculation/No%20Repulsion/10.92%25.png)
+
+- Coverage = 33.65%:
+
+![33.65%](/Results/Cv%20Calculation/No%20Repulsion/33.65%25.png)
+
+- Coverage = 50%:
+
+![50%](/Results/Cv%20Calculation/No%20Repulsion/50%25.png)
+
+- Coverage = 71.95%:
+
+![71.95%](/Results/Cv%20Calculation/No%20Repulsion/71.95%25.png)
+
+- Coverage = 90%:
+
+![90%](/Results/Cv%20Calculation/No%20Repulsion/90%25.png)
+
+- Coverage = 99%:
+
+![99%](/Results/Cv%20Calculation/No%20Repulsion/99%25.png)
+
 ## Publication
 
 The whole work has been published as a poster presentation (**[click to view](/HKPS%202014.pdf)**) in 17th Annual Conference of the Physical Society of Hong Kong, 06/07/2014 and received the Best Student Poster Award on that year.
