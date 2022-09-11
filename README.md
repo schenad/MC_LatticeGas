@@ -1,4 +1,7 @@
 # MC_LatticeGas
+
+![HKPS 2014](/HKPS%202014.png)
+
 This project is from the Undergraduate Research Opportunities Program (UROP) that I participated during my undergraduate study in HKUST (2013-2014). It is a simplified Monte Carlo (MC) simulation of Br atoms on Cu(111) surface based on [lattice gas model](https://en.wikipedia.org/wiki/Ising_model#Lattice_gas) (2-D), with 2 competing forces: bonding force between the nearest neighbor and repulsive force between each of atom (any distance). [Periodic boundary condition](https://en.wikipedia.org/wiki/Periodic_boundary_conditions) is used to eliminate edge effect. This toy model only searches the most energetically favorable state for the configuration of atoms under two competing forces. Searching for the best parameters for the model was done by calculating the size distribution, shape distribution and pair correlation function of the islands in simulated model and comparing these characteristics with the ones in actual experiments. 
 
 ## Simulation vs. Experiment
